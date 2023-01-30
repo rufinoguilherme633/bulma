@@ -4,32 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="bulma.css">
     <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.26/css/bulma.css”>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,700;1,800&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,700;1,800&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 
 </head>
 
 <body>
-    <h1 class="title">Bulma</h1>
-    <h2 class="subtitle">Ainda não possui uma conta na Bulma? sing up </h2>
+    <section class="is-flex-direction-row  principal">
+        <article class="is-flex-direction-column">
+            <section class="section">
+                <h1 class="title">Login</h1>
+                <h2 class="subtitle subtitle1">
+                    Ainda não possui uma conta na Bulma?<span>sing up</span> 
+                </h2>
+            </section>
+
+            <form class="box">
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="e.g. alex@example.com">
+                    </div>
+                </div>
+    
+                <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control">
+                        <input class="input" type="password" placeholder="****">
+                    </div>
+                 <span class='label'>salvar sua senha?</span>
+                </div>
+    
+                <button class="button is-primary">Sign in</button>
+            </form>
+        </article>
+        
+
+        <article class="is-flex-direction-column logo" >
+            <div class="is-flex-direction-row">
+                <figure class="image is-128x128">
+                    <img src="img/bulma.png">
+                </figure>
+                <h1 class="bulma">Bulma</h1>
+            </div>
 
 
-    <div class="control">
 
-        <input class="input is-hovered" type="text" placeholder="nome">
-    </div>
+            <h2 class="subtitle"><span>Bulma</span>  is a completely free <span>CSS framework</span> , inspired by Bootstrap and based on Flexbox,
+                which already has a very high compatibility between browsers. Among its features are:<span>100% responsive.</span>
+                <span>Saiba Mais</span></h2>
+        </article>
+    </section>
 
-    <div class="control">
-        <input class="input is-hovered" type="text" placeholder="senha">
-    </div>
 
-    <button class="button is-primary">
-        Entrar
-      </button>
 
 
 </body>
