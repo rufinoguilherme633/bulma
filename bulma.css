@@ -1,100 +1,101 @@
 body {
- background-color: #8ED7CA;
-
+    background-color: #8ED7CA;
 }
-
 
 .is-flex-direction-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
 
-display:flex;
-flex-direction:row;
-align-items:center;
-justify-content:center;
-margin-top:5%;
-}
-.is-flex-direction-column { 
-background-color:red;
- 
- 
-}
+.is-flex-direction-column {}
 
 .title {
     color: #0D795F;
     font-size: 64px;
-margin: auto auto;
-background-color:red;
-text-align:center;
-
-
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
-.subtitle{
-    font-size: 24px;
- background-color:pink;
 
-    
+.subtitle {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 55px;
+    background-color: red;
 }
 
 .label {
-    color:#0D795F;
-    font-size:32px;
+    color: #0D795F;
+    font-size: 32px;
 }
 
 .is-primary {
-
-    background-color:#A6C6BE;
-    font-size: 1.5em;
-    border-radius: 10px;
+    background-color: #A6C6BE;
+    font-size: 1.8em;
+    border-radius: 30px;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
     width: 364px;
     height: 83px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    
-    
-    
-  }
-  .is-primary:hover {
-    
-  }
-    
+    box-shadow: inset 1px 20px 20px rgba(0, 0, 0, 0.20);
+}
+
+.senha {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    background-color: red;
+}
+
+.is-primary:hover {}
+
 .bulma {
-    font-size:128px;
-  color:#0D795F;margin:0;
+    font-size: 128px;
+    color: #0D795F;
+    margin: 0;
 }
 
 .subtitle {
-
     width: 500px;
-    margin:0;
-    font-size:30px;
+    margin: 0;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.text {
+    width: 600px;
 }
 
 .input {
     width: 396px;
-    border-radius:13px;
+    border-radius: 20px;
     height: 39px;
-  
-  }
-  span {
-   color:#0D795F;
-  }
+    font-size: 20px;
+}
 
- .subititle span{
-    color:#0D795F;
- }
+span {
+    color: #0D795F;
+    font-family: 'Montserrat', sans-serif;
+}
 
-.field{
-background-color:blue;
-padding:30px;
+.subititle span {
+    color: #0D795F;
+}
+
+.field {
+    padding: 30px;
 }
 
 .principal {
-gap:81px;
+    gap: 150px;
 }
 
 @media screen and (max-width: 1300px) {
-.logo {
-display:none;
-}
+    .logo {
+        display: none;
+    }
 }
