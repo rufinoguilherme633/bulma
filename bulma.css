@@ -92,8 +92,33 @@ span {
 .principal {
     gap: 150px;
 }
+@media screen and (max-width: 1200px) {
+.text {
+background-color:blue;
+width:500px;
+font-size:25px;
+}
 
-@media screen and (max-width: 1300px) {
+.bulma {
+font-size:90px;
+}
+.subtitle{
+background-color:blue;
+width:350px;
+font-size:23px;
+line-height: 30px;
+}
+
+}
+
+@media screen and (max-width: 1400px) {
+.principal {
+    gap: 50px;
+background-color:red;
+}
+}
+
+@media screen and (max-width: 900px) {
     .logo {
         display: none;
     }
@@ -108,4 +133,36 @@ span {
 
 .divbutton {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+.principal{
+background-color:red;
+width:450px;
+}
+body{
+display:flex;
+text-align:center;
+justify-content:center;
+}
+.subtitle1 {
+width:400px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.principal{
+background-color:blue;
+width:350px;
+}
+.subtitle1 {
+width:300px;
+background-color:red;
+}
+.is-primary {
+width:300px;
+}
+.input {
+width:300px;
+}
 }
