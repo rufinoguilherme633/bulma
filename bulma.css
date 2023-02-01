@@ -98,7 +98,7 @@ span {
 }
 @media screen and (max-width: 1200px) {
 .text {
-background-color:blue;
+
 width:500px;
 font-size:25px;
 }
@@ -107,7 +107,7 @@ font-size:25px;
 font-size:90px;
 }
 .subtitle{
-background-color:blue;
+
 width:350px;
 font-size:23px;
 line-height: 30px;
@@ -118,7 +118,7 @@ line-height: 30px;
 @media screen and (max-width: 1400px) {
 .principal {
     gap: 50px;
-background-color:red;
+
 }
 }
 
@@ -141,7 +141,7 @@ background-color:red;
 
 @media screen and (max-width: 600px) {
 .principal{
-background-color:red;
+
 width:450px;
 }
 body{
@@ -156,12 +156,12 @@ width:400px;
 
 @media screen and (max-width: 400px) {
 .principal{
-background-color:blue;
+
 width:350px;
 }
 .subtitle1 {
 width:300px;
-background-color:red;
+
 }
 .is-primary {
 width:300px;
